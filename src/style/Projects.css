@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+#Folder-x-btn{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: hsl(0, 100%, 50%);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 150ms;
+  font-size: 0px;
+}
+#Folder-x-btn:hover{
+  font-size: 10px;
+}
+
+.Folder-tab{
+  color: black;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.Folder-URLtab{
+  background-color: rgb(220, 220, 220);
+  width: 1100px;
+  height: 20px;
+  display: flex;
+}
+
+#Folder-url{
+  background-color: rgb(220, 220, 220);
+  width: 92%;
+  height: 17px;
+  font-size: 4.5px;
+  display: flex;
+  margin-left: 10px;
+  justify-content:flex-start;
+  align-items: center;
+  margin-top: 1px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 5px 5px 5px 5px;
+}
+
+
+.Folder-close-bar{
+  display: flex;
+  align-items: center;
+  background-color: rgb(220, 220, 220);
+  width: 1100px;
+  height: 25px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: -2px;
+
+}
+#Folder-x{
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+
+.Folder-tab-tab{
+  display: flex;
+  flex-direction: column;
+}
+
+#Folder-tab{
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(229, 229, 229);
+  border: solid 1px;
+  border-color: rgb(190, 190, 190);
+  margin-left: 10px;
+  border-radius: 5px 5px 0px 0px;
+  height: 20px;
+  width: 150px;
+}
+
+#folder-leftarrow{
+  margin-top: 10px;
+  width: 12px;
+  margin: 5px;
+  margin-left: 20px;
+}
+#folder-rightarrow{
+  width: 12px;
+  margin: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#Folder-tab-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.folder-naeyong{
+  background-color: white;
+}
+
+.project-folders{
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: row;
+}
+
+#project-folder{
+  margin-top: 12px;
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+}
+
+#prj-font{
+  margin: 15px;
+  font-size: 13px;
+}

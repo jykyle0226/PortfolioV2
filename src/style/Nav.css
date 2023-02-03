@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+
+.Nav-bar{
+  background-image: url(https://i.imgur.com/PLAIAfZ.jpg);
+  background-size: 2200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-icons{
+  display: flex;
+  justify-content: center;
+  height: 20px;
+  margin-top: 14px;
+  margin-left: 40px;
+}
+
+.Nav-right{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+  
+}
+
+.clock{
+  display: flex;
+  font-size: 15px;
+  margin-right: 0px;
+
+}
+
+#phone, #wifi, #email{
+  display: block;
+}
+
+#email, #phone {
+  margin-left: 5px;
+  margin-right: 8px;
+}
+
+#wifi {
+  margin-right: 15px;
+  width: 20px;
+}
+
+#email {
+  width: 20px;
+
+}
+
+
+#banner-link:visited{
+  color: black;
+  text-decoration: none;
+}
+#banner-link{
+  text-decoration: none;
+  color: black;
+}
+
+#time{
+  margin-left: 10px;
+}
+
+#banner{
+  width: 500px;
+  margin: 10px;
+  font-size: 17px;
+}
+
+.sticky-note{
+  width: 200px;
+  height: 200px;
+  border: solid 1px;
+  background-color: rgb(246, 246, 127);
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.Folders-Div{
+  display: flex;
+}
+
+#welcome{
+  font-family: 'Lato', sans-serif;
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#sticky-ul {
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.cont{
+
+}
+
+.cont2{
+  width: 60px;
+  height: 60px;
+  border: solid 1px;
+  background-color: rgb(198, 198, 198);
+}
