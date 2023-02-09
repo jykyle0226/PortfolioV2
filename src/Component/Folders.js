@@ -7,7 +7,7 @@ const Folders = () => {
   const [ isAboutActive, setIsAboutActive ] = useState(false)
 
   const changeAboutStyle = () => {
-    changeAboutStyle(current => !current) 
+    setIsAboutActive(current => !current) 
   }
 
   const [ isFolderActive, setIsFolderActive ] = useState(false)
@@ -45,17 +45,23 @@ const Folders = () => {
       </div>
       <div>
       <div className='folder-div'>
-            <div className='About' onDoubleClick={
+            <div className='About' style={{
+            backgroundColor: isAboutActive ? 'grey' : '',
+            width: isAboutActive ? '60px' : '',
+          }} onClick={changeAboutStyle} onDoubleClick={
             () => {
-              window.open('http://localhost:3000/About');
+              window.location.href = '/About';
             }
           }>
             <img id='file' src='about.svg' alt=''></img>
             <h1 id='about'>About</h1>
           </div>
-          <div className='Projects' onDoubleClick={
+          <div className='Projects' style={{
+            backgroundColor: isFolderActive ? 'grey' : '',
+            width: isFolderActive ? '60px' : '',
+          }} onClick={changeFolderStyle} onDoubleClick={
             () => {
-              window.open('http://localhost:3000/Projects');
+              window.location.href = '/Projects';
             }
           }>
           <img id='file' src='file.svg' alt=''></img>

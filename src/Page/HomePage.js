@@ -7,6 +7,7 @@ const HomePage = () => {
     <div>
       <Navbar></Navbar>
       <div id='body'>
+        <div></div>
         <Folders></Folders>
       </div>
       
