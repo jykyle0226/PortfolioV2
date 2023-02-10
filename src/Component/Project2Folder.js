@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/Projects.css";
 
-const Projects = () => {
+const Projects2Folder = () => {
   return (
     <div>
       <div className="Folder">
@@ -16,7 +16,7 @@ const Projects = () => {
                   <img id="folder-leftarrow" src="left.png" alt=""></img>
                   <img id="folder-rightarrow" src="right.png" alt=""></img>
                 </div>
-                <h1 className="Folder-tab">Projects</h1>
+                <h1 className="Folder-tab">CaffeNova</h1>
               </div>
             </div>
           </div>
@@ -24,38 +24,30 @@ const Projects = () => {
         </div>
         <div className="folder-naeyong">
           <div className="project-folders">
-            <div className="project-yo" onDoubleClick={
+            <div onDoubleClick={
               ()=>{
                 window.location.href = "/Project1"
               }
             }>
               <img id="project-folder" src="file.svg"></img>
-              <h3 id="prj-font" className="GCCK">GCCK Audio Engineer Website</h3>
+              <h3 id="prj-font">About</h3>
             </div>
-            <div className="project-yo" onDoubleClick={
+            <div onDoubleClick={
               ()=>{
                 window.location.href = "/Project2"
               }
             }>
               <img id="project-folder" src="file.svg"></img>
-              <h3 id="prj-font" className="CN">CaffeNova</h3>
+              <h3 id="prj-font">Github</h3>
             </div>{" "}
-            <div className="project-yo" onDoubleClick={
+            <div onDoubleClick={
               ()=>{
                 window.location.href = "/Project3"
               }
             }>
-              <img id="project-folder" src="file.svg"></img>
-              <h3 id="prj-font" className="BI">BuckIt</h3>
+              <img id="project-folder" src="chrome.svg"></img>
+              <h3 id="prj-font">Live</h3>
             </div>{" "}
-            <div className="project-yo" onDoubleClick={
-              ()=>{
-                window.location.href = "/Project4"
-              }
-            }>
-              <img id="project-folder" src="file.svg"></img>
-              <h3 id="prj-font" className="MDAD">My Divo and Diary</h3>
-            </div>
           </div>
         </div>
       </div>
@@ -63,4 +55,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Projects2Folder;

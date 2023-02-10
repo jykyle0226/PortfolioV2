@@ -50,7 +50,7 @@ const Folders = () => {
             width: isAboutActive ? '60px' : '',
           }} onClick={changeAboutStyle} onDoubleClick={
             () => {
-              window.location.href = '/About';
+              window.location.href = "/About";
             }
           }>
             <img id='file' src='about.svg' alt=''></img>
@@ -61,7 +61,7 @@ const Folders = () => {
             width: isFolderActive ? '60px' : '',
           }} onClick={changeFolderStyle} onDoubleClick={
             () => {
-              window.location.href = '/Projects';
+              window.location.href = "/Projects";
             }
           }>
           <img id='file' src='file.svg' alt=''></img>

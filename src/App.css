@@ -14,6 +14,10 @@
   justify-content: space-between;
 }
 
+.Project1Page{
+  display: flex;
+  justify-content: space-between;
+}
 .folder-div{
   display: flex;
   flex-direction: column;
@@ -87,5 +91,4 @@
 .AboutPage, .ProjectPage{
   display: flex;
   justify-content: space-between;
-  margin: 10px;
 }
