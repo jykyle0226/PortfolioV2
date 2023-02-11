@@ -8,7 +8,7 @@ const Projects5Folder = () => {
       <div className="About">
         <div className="prj-tab-tab">
           <div className="prj-close-bar">
-            <a id="prj-x" href="/">
+          <a id="prj-x" href="/Projects">
               <button id="prj-x-btn">x</button>
             </a>
             <div id="prj-tab">
