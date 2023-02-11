@@ -17,7 +17,7 @@ const Projects4Folder = () => {
               </div>
 
               <div id="prj-tab-div">
-                <h1 className="prj-tab">GCCK Audio Engineer Website</h1>
+                <h1 className="prj-tab">My Devo and Diary</h1>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Projects4Folder = () => {
             </div>
             <div id="prj-url">
               <h1 id="prj-url-h1">
-                https://iridescent-croquembouche-9e80f7.netlify.app
+              https://project2-minyong-kim.herokuapp.com/
               </h1>
             </div>
           </div>
@@ -41,11 +41,11 @@ const Projects4Folder = () => {
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.9 }}
                 className="project-img"
-                src="https://i.imgur.com/Td2GZ3f.png"
+                src="https://i.imgur.com/zj0eudJ.png"
               ></motion.img>
               <div className="lg">
                 <a
-                  href="https://github.com/jykyle0226/Audio-Engineer-Guide-Website-FrontEnd"
+                  href="https://github.com/jykyle0226/My-Personal-Devo-Diary"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -58,7 +58,7 @@ const Projects4Folder = () => {
                   ></motion.img>
                 </a>
                 <a
-                  href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+                  href="https://project2-minyong-kim.herokuapp.com//"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -74,15 +74,13 @@ const Projects4Folder = () => {
             </div>
             <div className="rightside">
               <h4 id="dscription" className="prj-intro">
-                Developed a web application to provide my church members a
-                website to store feedback data and find the worship band
+              A personal blog website for me to store my diary and devotional note
               </h4>
               <h4 id="dscription" className="prj-intro">
-                Utilized Mongoose/MongoDB, Express, React, and Node (MERN)
+              Full stack web application developed in Express.js and MongoDB
               </h4>
               <h4 id="dscription" className="prj-intro">
-                Implemented Spotify API for users to find their worship band
-                information on Youtube
+              Implemented full CRUD functionality
               </h4>
             </div>
           </div>

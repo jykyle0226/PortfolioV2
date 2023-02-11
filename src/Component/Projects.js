@@ -56,6 +56,14 @@ const Projects = () => {
               <img id="project-folder" src="chrome.svg"></img>
               <h3 id="prj-font" className="MDAD">My Divo and Diary</h3>
             </div>
+            <div className="project-yo" onDoubleClick={
+              ()=>{
+                window.location.href = "/Project5"
+              }
+            }>
+              <img id="project-folder" src="chrome.svg"></img>
+              <h3 id="prj-font" className="MDAD">Gif Generator</h3>
+            </div>
           </div>
         </div>
       </div>

@@ -14,6 +14,7 @@ import Project1Page from "./Page/Project1Page"
 import Project2Page from "./Page/Project2Page"
 import Project3Page from "./Page/Project3Page"
 import Project4Page from "./Page/Project4Page"
+import Project5Page from "./Page/Project5Page"
 
 
 function App() {
@@ -45,6 +46,9 @@ function App() {
       </Route>
       <Route path="/Project4">
         <Project4Page></Project4Page>
+      </Route>
+      <Route path="/Project5">
+        <Project5Page></Project5Page>
       </Route>
 
     </div>

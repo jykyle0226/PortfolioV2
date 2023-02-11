@@ -2,7 +2,7 @@ import React from "react";
 import "../style/Projects.css";
 import { motion } from "framer-motion";
 
-const Projects2Folder = () => {
+const Projects5Folder = () => {
   return (
     <div className="AboutPage">
       <div className="About">
@@ -17,7 +17,7 @@ const Projects2Folder = () => {
               </div>
 
               <div id="prj-tab-div">
-                <h1 className="prj-tab">CaffeNova</h1>
+                <h1 className="prj-tab">GIF Generator</h1>
               </div>
             </div>
           </div>
@@ -28,7 +28,7 @@ const Projects2Folder = () => {
             </div>
             <div id="prj-url">
               <h1 id="prj-url-h1">
-              https://caffenova.herokuapp.com/
+                https://main--astonishing-dieffenbachia-49841b.netlify.app
               </h1>
             </div>
           </div>
@@ -41,11 +41,11 @@ const Projects2Folder = () => {
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.9 }}
                 className="project-img"
-                src="CaffeNova.png"
+                src="https://i.imgur.com/QkpluYP.png"
               ></motion.img>
               <div className="lg">
                 <a
-                  href="https://github.com/jykyle0226/CaffeNova"
+                  href="https://github.com/jykyle0226/GIF-Generator"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -58,7 +58,7 @@ const Projects2Folder = () => {
                   ></motion.img>
                 </a>
                 <a
-                  href="https://caffenova.herokuapp.com/"
+                  href="https://main--astonishing-dieffenbachia-49841b.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -74,14 +74,13 @@ const Projects2Folder = () => {
             </div>
             <div className="rightside">
               <h4 id="dscription" className="prj-intro">
-              Full stack web application developed in Django
+                A single-page web application integrated Giphy API
               </h4>
               <h4 id="dscription" className="prj-intro">
-              Used PostgreSQL to store and query user and cafe information
+                Takes search requests and generates 3 gifs
               </h4>
               <h4 id="dscription" className="prj-intro">
-              Implemented user authentication to limit functionalities to
-                non-users
+                Developed with JavaScript, Ajax, jQuery, HTML and CSS
               </h4>
             </div>
           </div>
@@ -91,4 +90,4 @@ const Projects2Folder = () => {
   );
 };
 
-export default Projects2Folder;
+export default Projects5Folder;

@@ -41,11 +41,11 @@ const Projects3Folder = () => {
                 whileHover={{ scale: 1.5 }}
                 whileTap={{ scale: 0.9 }}
                 className="project-img"
-                src="https://i.imgur.com/Td2GZ3f.png"
+                src="https://i.imgur.com/84IDtHM.png"
               ></motion.img>
               <div className="lg">
                 <a
-                  href="https://github.com/jykyle0226/Audio-Engineer-Guide-Website-FrontEnd"
+                  href="https://github.com/jykyle0226/buckT-backend"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -58,7 +58,7 @@ const Projects3Folder = () => {
                   ></motion.img>
                 </a>
                 <a
-                  href="https://iridescent-croquembouche-9e80f7.netlify.app/"
+                  href="https://buck-it.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -74,15 +74,18 @@ const Projects3Folder = () => {
             </div>
             <div className="rightside">
               <h4 id="dscription" className="prj-intro">
-                Developed a web application to provide my church members a
-                website to store feedback data and find the worship band
+              A web application where users can store bucket list data
               </h4>
               <h4 id="dscription" className="prj-intro">
-                Utilized Mongoose/MongoDB, Express, React, and Node (MERN)
+              Worked with three other team members utilizing GitHub/Git
+                Collaboration for version control.
               </h4>
               <h4 id="dscription" className="prj-intro">
-                Implemented Spotify API for users to find their worship band
-                information on Youtube
+              Utilized Mongoose/MongoDB, Express, React, and Node (MERN)
+              </h4>
+              <h4 id="dscription" className="prj-intro">
+              Implemented full CRUD functionality as a back-end developer
+
               </h4>
             </div>
           </div>
