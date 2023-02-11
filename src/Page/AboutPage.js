@@ -7,7 +7,7 @@ const HomePage = () => {
     <div>
       <Navbar></Navbar>
       <div className='AboutPage'>
-        <About></About>
+        <About className='Abouttt'></About>
         <Folders></Folders>
       </div>
       

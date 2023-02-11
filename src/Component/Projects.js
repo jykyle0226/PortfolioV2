@@ -29,7 +29,7 @@ const Projects = () => {
                 window.location.href = "/Project1"
               }
             }>
-              <img id="project-folder" src="file.svg"></img>
+              <img id="project-folder" src="chrome.svg"></img>
               <h3 id="prj-font" className="GCCK">GCCK Audio Engineer Website</h3>
             </div>
             <div className="project-yo" onDoubleClick={
@@ -37,7 +37,7 @@ const Projects = () => {
                 window.location.href = "/Project2"
               }
             }>
-              <img id="project-folder" src="file.svg"></img>
+              <img id="project-folder" src="chrome.svg"></img>
               <h3 id="prj-font" className="CN">CaffeNova</h3>
             </div>{" "}
             <div className="project-yo" onDoubleClick={
@@ -45,7 +45,7 @@ const Projects = () => {
                 window.location.href = "/Project3"
               }
             }>
-              <img id="project-folder" src="file.svg"></img>
+              <img id="project-folder" src="chrome.svg"></img>
               <h3 id="prj-font" className="BI">BuckIt</h3>
             </div>{" "}
             <div className="project-yo" onDoubleClick={
@@ -53,7 +53,7 @@ const Projects = () => {
                 window.location.href = "/Project4"
               }
             }>
-              <img id="project-folder" src="file.svg"></img>
+              <img id="project-folder" src="chrome.svg"></img>
               <h3 id="prj-font" className="MDAD">My Divo and Diary</h3>
             </div>
           </div>

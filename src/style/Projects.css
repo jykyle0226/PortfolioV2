@@ -106,6 +106,8 @@
 .folder-naeyong{
   background-color: white;
   height: 500px;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .project-folders{
@@ -117,6 +119,12 @@
   margin-top: 20px;
   margin-left: 30px;
 }
+
+.project-yo1{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
 #project-folder{
   margin-top: 12px;
   width: 60px;
@@ -126,7 +134,7 @@
 
 #prj-font{
   width: 100px;
-  margin-top: -10px;
+  margin-top: -4px;
   font-size: 13px;
   text-align: center;
 }
@@ -145,4 +153,227 @@
 
 .MDAD{
   margin-left: -10px;
+}
+
+#project-font, #Live-project-font{
+  width: 100px;
+  margin-top: -4px;
+  font-size: 13px;
+  margin-left: 20px;
+}
+
+#Live-project-font{
+  margin-left: 27px;
+}
+
+
+.project-img{
+  width: 500px;
+  height: 300px;
+}
+
+.close-bar{
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+  background-color: black;
+  width: 120%;
+  height: 25px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: -2px;
+
+}
+
+.URLtab{
+  background-color: rgb(95, 95, 95);
+  width: 120%;
+  height: 20px;
+  display: flex;
+  margin-left: 40px;
+}
+
+#url{
+  background-color: rgb(128, 128, 128);
+  width: 92%;
+  height: 17px;
+  font-size: 4.5px;
+  display: flex;
+  margin-left: 10px;
+  justify-content:flex-start;
+  align-items: center;
+  margin-top: 1px;
+  border: 1px solid rgb(117, 117, 117);
+  border-radius: 5px 5px 5px 5px;
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+#prj-x-btn{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: hsl(0, 100%, 50%);
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 150ms;
+  font-size: 0px;
+}
+#prj-x-btn:hover{
+  font-size: 10px;
+}
+
+.prj-close-bar{
+  display: flex;
+  margin-left: 40px;
+  align-items: center;
+  background-color: rgb(244, 244, 244);
+  width: 170%;
+  height: 25px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: -2px;
+
+}
+#prj-x{
+  text-decoration: none;
+  margin-left: 3px;
+}
+.prj-URLtab{
+  background-color: rgb(223, 223, 223);
+  width: 170%;
+  height: 20px;
+  display: flex;
+  margin-left: 40px;
+}
+
+#prj-url{
+  background-color: rgb(255, 255, 255);
+  width: 92%;
+  height: 17px;
+  font-size: 4.5px;
+  display: flex;
+  margin-left: 10px;
+  justify-content:flex-start;
+  align-items: center;
+  margin-top: 1px;
+  border: 1px solid rgb(176, 176, 176);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.prj-tab-tab{
+  display: flex;
+  flex-direction: column;
+}
+
+#prj-url-h1{
+  margin-left: 10px;
+}
+#prj-tab{
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(244, 244, 244);
+  border: solid 1px;
+  border-color: rgb(203, 203, 203);
+  margin-left: 10px;
+  border-radius: 5px 5px 0px 0px;
+  height: 20px;
+  width: 200px;
+}
+
+#prj-tab-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#prj-img-div{
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#prj-mk{
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.prj-tab{
+  color: black;
+  font-size: 11px;
+
+}
+.prj-Naeyong{
+  margin-top: -20px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 170%;
+  margin-left: 40px;
+}
+
+#prj-face{
+  width: 100px;
+  height: 100px;
+}
+
+
+.prj-intro-div{
+  margin-left: 30px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  width: 600px;
+}
+.prj-intro{
+  margin: 10px;
+  font-size: 24px;
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, #a3b4ff, #1f1f6d);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  font-family: 'Montserrat', sans-serif;
+  width: 500px;
+}
+#prj-hello{
+  font-size: 40px;
+}
+#prj-arrow{
+  width: 12px;
+  margin: 5px;
+}
+.lg {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.github, .live{
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+} 
+
+.leftside{
+  margin-left: -200px;
+}
+
+#dscription{
+  margin-top: 10px;
+}
+
+.rightside{
+  margin-left: 20px;
+  margin-top: -50px;
 }
