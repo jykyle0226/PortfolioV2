@@ -74,14 +74,14 @@ const Projects1Folder = () => {
             </div>
             <div className="rightside">
               <h4 id="dscription" className="prj-intro">
-                Developed a web application to provide my church members a
+                - Developed a web application to provide my church members a
                 website to store feedback data and find the worship band
               </h4>
               <h4 id="dscription" className="prj-intro">
-                Utilized Mongoose/MongoDB, Express, React, and Node (MERN)
+                - Utilized Mongoose/MongoDB, Express, React, and Node (MERN)
               </h4>
               <h4 id="dscription" className="prj-intro">
-                Implemented Spotify API for users to find their worship band
+                - Implemented Spotify API for users to find their worship band
                 information on Youtube
               </h4>
             </div>

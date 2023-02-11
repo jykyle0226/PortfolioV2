@@ -74,17 +74,17 @@ const Projects3Folder = () => {
             </div>
             <div className="rightside">
               <h4 id="dscription" className="prj-intro">
-              A web application where users can store bucket list data
+              - A web application where users can store bucket list data
               </h4>
               <h4 id="dscription" className="prj-intro">
-              Worked with three other team members utilizing GitHub/Git
+              - Worked with three other team members utilizing GitHub/Git
                 Collaboration for version control.
               </h4>
               <h4 id="dscription" className="prj-intro">
-              Utilized Mongoose/MongoDB, Express, React, and Node (MERN)
+              - Utilized Mongoose/MongoDB, Express, React, and Node (MERN)
               </h4>
               <h4 id="dscription" className="prj-intro">
-              Implemented full CRUD functionality as a back-end developer
+              - Implemented full CRUD functionality as a back-end developer
 
               </h4>
             </div>

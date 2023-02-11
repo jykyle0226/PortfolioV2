@@ -74,13 +74,13 @@ const Projects2Folder = () => {
             </div>
             <div className="rightside">
               <h4 id="dscription" className="prj-intro">
-              Full stack web application developed in Django
+              - Full stack web application developed in Django
               </h4>
               <h4 id="dscription" className="prj-intro">
-              Used PostgreSQL to store and query user and cafe information
+              - Used PostgreSQL to store and query user and cafe information
               </h4>
               <h4 id="dscription" className="prj-intro">
-              Implemented user authentication to limit functionalities to
+              - Implemented user authentication to limit functionalities to
                 non-users
               </h4>
             </div>

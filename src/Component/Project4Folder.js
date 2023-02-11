@@ -74,13 +74,13 @@ const Projects4Folder = () => {
             </div>
             <div className="rightside">
               <h4 id="dscription" className="prj-intro">
-              A personal blog website for me to store my diary and devotional note
+              - A personal blog website for me to store my diary and devotional note
               </h4>
               <h4 id="dscription" className="prj-intro">
-              Full stack web application developed in Express.js and MongoDB
+              - Full stack web application developed in Express.js and MongoDB
               </h4>
               <h4 id="dscription" className="prj-intro">
-              Implemented full CRUD functionality
+              - Implemented full CRUD functionality
               </h4>
             </div>
           </div>

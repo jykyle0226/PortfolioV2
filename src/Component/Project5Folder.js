@@ -74,13 +74,13 @@ const Projects5Folder = () => {
             </div>
             <div className="rightside">
               <h4 id="dscription" className="prj-intro">
-                A single-page web application integrated Giphy API
+                - A single-page web application integrated Giphy API
               </h4>
               <h4 id="dscription" className="prj-intro">
-                Takes search requests and generates 3 gifs
+                - Takes search requests and generates 3 gifs
               </h4>
               <h4 id="dscription" className="prj-intro">
-                Developed with JavaScript, Ajax, jQuery, HTML and CSS
+                - Developed with JavaScript, Ajax, jQuery, HTML and CSS
               </h4>
             </div>
           </div>
