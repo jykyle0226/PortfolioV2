@@ -17,7 +17,7 @@ const Projects3Folder = () => {
               </div>
 
               <div id="prj-tab-div">
-                <h1 className="prj-tab">GCCK Audio Engineer Website</h1>
+                <h1 className="prj-tab">Buck It</h1>
               </div>
             </div>
           </div>
