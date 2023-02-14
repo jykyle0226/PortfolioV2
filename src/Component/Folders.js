@@ -40,7 +40,7 @@ const Folders = () => {
       <h1 id='welcome'>Welcome to my portfoliOS!</h1>
         <ul id='sticky-ul'>
           <li>click the email/phone icon above to contact me!</li>
-          <li>dobule click icons on the right to discover more about me!</li>
+          <li>double click icons on the right to discover more about me!</li>
         </ul>
       </div>
       <div>
