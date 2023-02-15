@@ -77,12 +77,16 @@ const Projects = () => {
               width: isIcon2Active ? '80px' : '',
               height: isIcon2Active ? '130px' : '',
               border: isIcon2Active ? 'solid 1px' : '',
-            }} onClick={changeIcon2Style} className="project-yo" onDoubleClick={
-              ()=>{
-                window.location.href = "/Project2"
-              }
-            }>
-              <img id="project-folder" src="chrome.svg"></img>
+            }} onClick={changeIcon2Style} className="project-yo" 
+            
+            // onDoubleClick={
+            //   ()=>{
+            //     window.location.href = "/Project2"
+            //   }
+            // }
+            
+            >
+              <img id="project-folder" src="fix.png"></img>
               <h3 id="prj-font" className="CN">CaffeNova</h3>
             </div>{" "}
             <div
