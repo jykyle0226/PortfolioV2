@@ -58,7 +58,7 @@ const Projects4Folder = () => {
                   ></motion.img>
                 </a>
                 <a
-                  href="https://project2-minyong-kim.herokuapp.com//"
+                  href="https://project2-minyong-kim.herokuapp.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
