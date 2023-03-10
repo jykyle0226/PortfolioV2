@@ -79,14 +79,14 @@ const Projects = () => {
               border: isIcon2Active ? 'solid 1px' : '',
             }} onClick={changeIcon2Style} className="project-yo" 
             
-            // onDoubleClick={
-            //   ()=>{
-            //     window.location.href = "/Project2"
-            //   }
-            // }
+            onDoubleClick={
+              ()=>{
+                window.location.href = "/Project2"
+              }
+            }
             
             >
-              <img id="project-folder" src="fix.png"></img>
+              <img id="project-folder" src="chrome.png"></img>
               <h3 id="prj-font" className="CN">CaffeNova</h3>
             </div>{" "}
             <div
