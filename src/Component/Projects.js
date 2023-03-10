@@ -86,7 +86,7 @@ const Projects = () => {
             }
             
             >
-              <img id="project-folder" src="chrome.png"></img>
+              <img id="project-folder" src="chrome.svg"></img>
               <h3 id="prj-font" className="CN">CaffeNova</h3>
             </div>{" "}
             <div
