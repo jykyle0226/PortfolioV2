@@ -36,7 +36,7 @@ const About = () => {
         <div className="Naeyong">
           <div className="intro-div">
             <h4 className="intro">
-              Hi there, I'm Min Kim, and I'm thrilled to meet you!
+              Hi there, I'm Min Kim, and I'm a Full Stack Developer!
             </h4>
             <h4 className="intro">
               As a Full Stack Developer, I specialize in leveraging the power of
