@@ -121,12 +121,11 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
   width: 600px;
 }
 .intro{
   margin: 5px;
-  font-size: 30px;
+  font-size: 20px;
   background-color: #f3ec78;
   background-image: linear-gradient(45deg, #ffe5fe, #ae58f9);
   background-size: 100%;

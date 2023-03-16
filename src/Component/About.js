@@ -35,19 +35,30 @@ const About = () => {
 
         <div className="Naeyong">
           <div className="intro-div">
-
             <h4 className="intro">
-              I am a full-stack developer with a focus in JavaScript, React,
-              Express, MongoDB, and Node.
+              Hi there, I'm Min Kim, and I'm thrilled to meet you!
             </h4>
             <h4 className="intro">
-              As a recent graduate from General Assembly, I am equipped with
-              self-teaching abilities, and am flexible to work individually and
-              collaboratively
+              As a Full Stack Developer, I specialize in leveraging the power of
+              JavaScript, React, Express, MongoDB, and Node to create dynamic
+              and intuitive web applications.
             </h4>
             <h4 className="intro">
-              With 4 years of experience in audio engineering, I possess strong
-              foundations in problem solving and result-oriented work ethic.
+              Thanks to my solid education from General Assembly and a
+              never-ending passion for learning, I am confident in tackling any
+              challenge, whether working independently or collaboratively.
+            </h4>
+            <h4 className="intro">
+              What sets me apart from others in my field is my unique
+              perspective. With 4 years of experience in audio engineering, I
+              have honed my problem-solving skills and developed a
+              result-oriented work ethic that carries over to my development
+              work.
+            </h4>
+            <h4 className="intro">
+              I take pride in my attention to detail and unwavering drive for
+              excellence, both of which are essential in creating innovative
+              solutions that meet and exceed client expectations.
             </h4>
           </div>
         </div>
