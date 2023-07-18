@@ -5,6 +5,12 @@ import { useState } from 'react';
 
 const Projects = () => {
 
+  const [ isIcon6Active, setIsIcon6Active ] = useState(false)
+
+  const changeIcon6Style = () => {
+    setIsIcon6Active(current => !current) 
+  }
+
   const [ isIcon1Active, setIsIcon1Active ] = useState(false)
 
   const changeIcon1Style = () => {
@@ -57,6 +63,22 @@ const Projects = () => {
         </div>
         <div className="folder-naeyong">
           <div className="project-folders">
+          <div className="project-yo"
+            style={{
+              backgroundColor: isIcon6Active ? 'grey' : '',
+              width: isIcon6Active ? '80px' : '',
+              height: isIcon6Active ? '160px' : '',
+              border: isIcon6Active ? 'solid 1px' : '',
+            }} onClick={changeIcon6Style} 
+              onDoubleClick={
+              ()=>{
+                window.location.href = "/Project6"
+              }
+            }>
+              <img id="project-folder" src="chrome.svg"></img>
+              <h3 id="prj-font" className="GCCK">Planning Center To Audio Enginnering</h3>
+            </div>
+            
             <div className="project-yo"
             style={{
               backgroundColor: isIcon1Active ? 'grey' : '',

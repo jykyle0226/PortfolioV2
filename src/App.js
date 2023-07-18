@@ -1,10 +1,6 @@
 import "./App.css";
 import { Route } from "react-router-dom";
 import { useEffect } from "react";
-import Folders from "./Component/Folders";
-import Clock from "./Component/Clock";
-import Navbar from "./Component/Navbar";
-import About from "./Component/About";
 
 import "./style/About.css";
 import HomePage from "./Page/HomePage";
@@ -15,7 +11,7 @@ import Project2Page from "./Page/Project2Page"
 import Project3Page from "./Page/Project3Page"
 import Project4Page from "./Page/Project4Page"
 import Project5Page from "./Page/Project5Page"
-
+import Project6Page from './Page/Project6Page'
 
 function App() {
   useEffect(() => {
@@ -49,6 +45,9 @@ function App() {
       </Route>
       <Route path="/Project5">
         <Project5Page></Project5Page>
+      </Route>
+      <Route path="/Project6">
+        <Project6Page></Project6Page>
       </Route>
 
     </div>

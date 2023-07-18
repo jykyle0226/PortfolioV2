@@ -1,9 +1,9 @@
 import React from "react";
 import Folders from "../Component/Folders";
 import Navbar from "../Component/Navbar";
-import About from "../Component/About";
-import Projects from "../Component/Projects";
 import Projects1Folder from "../Component/Project1Folder";
+
+
 const Project1Page = () => {
   return (
     <div>
